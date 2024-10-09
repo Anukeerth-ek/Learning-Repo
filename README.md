@@ -1,47 +1,57 @@
-                                                   *** Mantine Learning Repository ***
 
-Welcome to my GitHub repository where I am learning and experimenting with Mantine, a comprehensive and customizable React component library.
+## Introduction
 
-Table of Contents
-About
-Installation
-Usage
-Examples
-Contributing
-License
-About
-This repository is a collection of examples, tutorials, and experiments using the Mantine library. It serves as a personal learning journey to understand how to effectively use Mantine's components, hooks, and utilities in React applications.
+This repository is meant to serve as a collection of everything I’m learning, including theory, practical examples, code snippets, and projects. I believe that writing down what I learn helps solidify my understanding and provides a reference point for the future.
 
-Installation
-To run any of the examples, ensure you have Node.js installed. Clone the repository and navigate to the desired example folder:
+---
 
-bash
-Copy code
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-Install the dependencies:
+## Folder Structure
 
-bash
-Copy code
-npm install
-Usage
-To start the development server and view the examples, run:
+Each folder represents a specific topic or technology that I am currently learning or have learned in the past. Inside each folder, you will find:
 
-bash
-Copy code
-npm start
-Open your browser and navigate to http://localhost:3000 to see the examples in action.
+- **Notes**: Written explanations and summaries of what I have learned.
+- **Code Examples**: Practical code snippets or projects I created while learning the topic.
+- **Resources**: Useful links, articles, or videos I found helpful for the specific topic.
 
-Examples
-Here are some of the topics I have explored in this repository:
 
-Basic Components: Button, Input, Modal, etc.
-Theming: Customizing themes and styling components.
-Hooks: Using Mantine hooks like useForm, useDisclosure, etc.
-Layouts: Building responsive layouts with Mantine Grid and Flexbox.
-Advanced: Integrating with other libraries, performance optimizations, and more.
-Contributing
-If you find any issues or have suggestions, feel free to open an issue or submit a pull request. Contributions are welcome!
+---
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+## Topics Covered
+
+Below is a list of the topics I have covered so far. I will keep updating this list as I continue learning new things:
+
+- Graph QL( https://graphql.org/learn/ )
+
+> **Note**: Feel free to browse through each folder to see my progress and notes.
+
+---
+
+## How to Use This Repository
+
+If you're following along with my learning journey, here’s how you can use this repository:
+
+1. **Clone the repository**: You can clone this repository to your local machine using:
+    ```bash
+    https://github.com/Anukeerth-ek/Learning-Repo.git
+    ```
+
+2. **Explore the folders**: Navigate through the different folders to explore the topics that interest you.
+
+3. **Learn and contribute**: Feel free to use my notes and examples for your learning, and if you'd like to contribute, you can submit pull requests or open issues for improvements.
+
+---
+
+## Contribution Guidelines
+
+This is a personal learning repository, but if you have any suggestions, corrections, or additional resources that could be useful, feel free to contribute! Here’s how:
+
+1. Fork this repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
+
+---
+
+---
+
+Thank you for visiting my learning journey repository! I hope it can serve as a useful reference for anyone else learning similar topics. Happy coding! 😊
