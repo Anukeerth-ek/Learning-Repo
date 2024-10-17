@@ -4,7 +4,7 @@
 This repository is meant to serve as a collection of everything I’m learning, including theory, practical examples, code snippets, and projects. I believe that writing down what I learn helps solidify my understanding and provides a reference point for the future.
 
 ________________________________________________________________
-**While learning something new make sure you know**
+## While learning something new make sure you know
 
 𝗪𝗵𝗮𝘁 𝗶𝘀 𝗶𝘁? (Core definition and purpose)
 
