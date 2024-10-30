@@ -80,3 +80,16 @@
 // 7. Variables
 // Variables are used to factor out dynamic values from queries and pass them as a separate dictionary.
 // _______________________________________________________________
+
+// _______________________________________________________________
+// 7. What is typedefs in Apollo Server?
+// ans: typedefs is a required argument that define Graphql schema language. It can be string or an array of strings or a function that returns an 
+// array of strings.
+// _______________________________________________________________
+
+// _______________________________________________________________
+// 8. What is resolvers in Apollo Server?
+// ans: resolvers is an optional argument that defines the resolvers for the schema.
+// _______________________________________________________________
+
+// _______________________________________________________________
