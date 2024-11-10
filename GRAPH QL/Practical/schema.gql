@@ -17,6 +17,12 @@ type Author {
     name: String!
     verified: Boolean!
 }
+
+type Query {
+    reviews: [Review]
+    games: [Game]
+    authors: [Author]
+}
 `
 
 // # typedef's types can be to: Int, float, string, boolean, ID
