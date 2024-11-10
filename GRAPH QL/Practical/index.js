@@ -1,14 +1,16 @@
 import { ApolloServer } from "@apollo/server";
 import {startStandaloneServer} from '@apollo/server/standalone'
 
+// types
+import {typeDefs} from './schema.gql'
+
+// server setup
 const server = new ApolloServer({
-    // typeDefs
+    typeDefs
     // resolvers
 })
-console.log("server is ", server)
+
 
 const {url} = await startStandaloneServer(server, {
     listen:{port: 4000}
 })
-
-console.log("url", 4000)
