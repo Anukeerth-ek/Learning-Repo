@@ -89,7 +89,7 @@
 
 // _______________________________________________________________
 // 8. What is resolvers in Apollo Server?
-// ans: resolvers is an optional argument that defines the resolvers for the schema.
+// ans: resolvers is an optional argument that defines the resolvers for the schema. Resolvers are function for handling the logic for fetching data for a specific field in your Graphql schema.
 // _______________________________________________________________
 
 // _______________________________________________________________
