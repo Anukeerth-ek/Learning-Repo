@@ -1,4 +1,4 @@
-export const typeDefs = `#graphql
+# schema.gql
 
 type Game {
     id: ID!
@@ -23,6 +23,6 @@ type Query {
     games: [Game]
     authors: [Author]
 }
-`
 
-// # typedef's types can be to: Int, float, string, boolean, ID
+
+# typedef's types can be to: Int, float, string, boolean, ID
