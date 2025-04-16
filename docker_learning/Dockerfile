@@ -1,5 +1,21 @@
-FROM node:20-alpine
-RUN npm install
+FROM node:16 alpine
+
 WORKDIR /app
-COPY ..COPY
-CMD ['node.js', 'app.js']
+
+COPY package*.json ./
+
+RUN npm install
+
+COPY . .
+
+RUN npm run build
+
+FROM node:20-alpine
+
+npm install package -g serve
+
+WORKDIR /app
+
+EXPOSE 5137
+
+CMD ["node.js", "-s", "dist"]
