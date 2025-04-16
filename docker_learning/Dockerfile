@@ -16,6 +16,6 @@ npm install package -g serve
 
 WORKDIR /app
 
-EXPOSE 5137
+EXPOSE 3000
 
 CMD ["node.js", "-s", "dist"]
