@@ -1,4 +1,16 @@
 <header class="header-style">
-    <h1>This is not a dynamic header</h1>
-    <app-sub-header [subHeader]="headerMessage()"></app-sub-header>
+    <h2>{{headerMessage()}}</h2>
+  <ul>
+    <li routerLink="">
+        Home
+    </li>
+    <li routerLink="/sections">
+        Sections
+    </li>
+    <li routerLink="/todos">
+        Todos
+    </li>
+    
+  </ul>
+    <!-- <app-sub-header [subHeader]="headerMessage()"></app-sub-header> -->
 </header>
