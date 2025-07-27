@@ -1,21 +1,30 @@
 import { Component, inject, OnInit, signal } from '@angular/core';
 import { TodosService } from '../services/todos.service';
 import { Todo } from '../modal/todo.types';
+import { catchError } from 'rxjs';
 
 @Component({
   selector: 'app-todos',
   imports: [],
   templateUrl: './todos.component.html',
-  styleUrl: './todos.component.css'
+  styleUrl: './todos.component.css',
 })
 export class TodosComponent implements OnInit {
-  todoServices = inject(TodosService)
+  todoServices = inject(TodosService);
 
-  todoSignal = signal<Array <Todo>>([])
+  todoItems = signal<Array<Todo>>([]);
 
   ngOnInit(): void {
-      console.log("Anu", this.todoServices.todoItem)
-
-      this.todoSignal.set(this.todoServices.todoItem)
+    this.todoServices
+      .getTodosFromApi()
+      .pipe(
+        catchError((err) => {
+          console.log(err);
+          throw err;
+        })
+      )
+      .subscribe((todos) => {
+        this.todoItems.set(todos);
+      });
   }
 }
