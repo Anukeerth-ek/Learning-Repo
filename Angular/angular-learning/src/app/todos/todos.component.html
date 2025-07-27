@@ -1,6 +1,10 @@
 
-<div >
-    @for (todo of todoSignal(); track $index) {
-    <p>{{todo.title}}</p>
+<ul >
+    <h2>Todo</h2>
+    @for (todo of todoItems(); track $index) {
+    <li class="div-box">
+        <input id="todo-{{todo.id}}" type="checkbox" [value]="todo.completed">
+        <label for="todo-{{todo.id}}">{{todo.title}}</label>
+    </li>
 }
-</div>
+</ul>
