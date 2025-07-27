@@ -1,10 +1,13 @@
+<div style="text-align: center; margin-top: 30px">
+  <h2>Todo</h2>
 
-<ul >
-    <h2>Todo</h2>
+    @if (!todoItems().length) {
+        <p>Loading..</p>
+    }  
+
+  <ul>
     @for (todo of todoItems(); track $index) {
-    <li class="div-box">
-        <input id="todo-{{todo.id}}" type="checkbox" [value]="todo.completed">
-        <label for="todo-{{todo.id}}">{{todo.title}}</label>
-    </li>
-}
-</ul>
+   <app-todo-items [todo]="todo"/>
+    }
+  </ul>
+</div>
