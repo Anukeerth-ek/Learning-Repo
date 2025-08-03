@@ -54,3 +54,23 @@
 #     print("ooFo")
 #     print("hii") 
     
+# 4.________ Loop________
+ 
+# fruits = ["apple", "banana", "grape"];
+
+# 1. This will give the index of the provided array
+# for fruit in range(len(fruits)):
+#     print(fruit)
+
+# 2. This will give the array elements when iterating
+# for fruit in fruits:
+#     print(fruit)
+
+# 3. This will give both array elements and array index
+# for fruit, index in enumerate(fruits):
+#     print("This is the array value", fruit)
+#     print("This is the array index", index)
+
+# 4. This will give each value in a string
+# for fruit in fruits[0]:
+#     print(fruit)
