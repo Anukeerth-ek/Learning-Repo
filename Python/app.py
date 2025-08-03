@@ -9,7 +9,7 @@
 
 # print("Sum is",num1+num2)
 
-#2.________ Data Types________
+# 2.________ Data Types________
 # String
 # Number
 # Boolean
@@ -38,3 +38,19 @@
 # print(value)
 
 
+# 3.________ Conditionals________
+
+# age = 2
+
+# if age >= 30:
+#     print("You are 30 above")
+#     print("wtf")
+#     print("hello")
+#     print("noway")
+
+# else:
+#     print("You are under 30")
+#     print("hell")
+#     print("ooFo")
+#     print("hii") 
+    
