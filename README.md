@@ -1,4 +1,4 @@
-
+##                                                                                                    WELCOME TO MY LEARNING REPO
 ## Introduction
 
 This repository is meant to serve as a collection of everything I’m learning, including theory, practical examples, code snippets, and projects. I believe that writing down what I learn helps solidify my understanding and provides a reference point for the future.
