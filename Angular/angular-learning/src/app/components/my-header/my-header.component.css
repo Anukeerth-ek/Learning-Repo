@@ -1,0 +1,25 @@
+.header-style {
+  background-color: cyan;
+  padding: 24px 16px;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+ul li {
+  list-style: none;
+  font-weight: 600;
+}
+
+ul li:hover {
+  cursor: pointer;
+  color: rgb(63, 165, 42);
+}

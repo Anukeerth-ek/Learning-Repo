@@ -1,0 +1,4 @@
+ <li appHightlighCompletedTodo [isCompleted]="todo().completed" class="div-box">
+      <input id="todo-{{ todo().id }}" type="checkbox" [checked]="todo().completed" />
+      <label for="todo-{{ todo().id }}">{{ todo().title }}</label>
+    </li>
