@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { reverseString, subtract, USER_POST_API_URL } from './helper'
+import { COMPANIES, postDetails, reverseString, subtract, USER_POST_API_URL } from './helper'
 
 // describe('Subtraction of 2 numbers', () => {
 //     it('return 2 if num1 is 4 and num2 is 2', () => {
@@ -21,8 +21,33 @@ import { reverseString, subtract, USER_POST_API_URL } from './helper'
 //     })
 // })
 
-describe('USER_POST_API_URL', () => {
-    it('Check if user post url is correct or not', () => {
-        expect(USER_POST_API_URL).toBe('https://api.com/user/posts')
+// describe('USER_POST_API_URL', () => {
+//     it('Check if user post url is correct or not', () => {
+//         expect(USER_POST_API_URL).toBe('https://api.com/user/posts')
+//     })
+// })
+
+// describe('Companies name check', () => {
+//     it("Should check the provided company name", () => {
+//         expect(COMPANIES).toEqual(["GOOGLE", "META", "MICROSOFT", "APPLE"])
+//     })
+// })
+
+describe('Check postDetail', () => {
+
+    // This is usefull if we have hardcoded object and if we need to check if that value is existing in there
+
+    // it('Should have post details', () => {
+    //     expect(postDetails).toEqual({
+    //         category: "Technology",
+    //         views: 24000
+    //     })
+    // })
+
+    // Thsi is usefull if we have an object value that we will get from an api
+
+    it('Should have the category property', () => {
+        expect(postDetails).toHaveProperty("category");
+        expect(postDetails).toHaveProperty("views")
     })
 })
