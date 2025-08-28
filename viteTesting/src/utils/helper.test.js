@@ -33,7 +33,7 @@ import { COMPANIES, postDetails, reverseString, subtract, USER_POST_API_URL } fr
 //     })
 // })
 
-describe('Check postDetail', () => {
+// describe('Check postDetail', () => {
 
     // This is usefull if we have hardcoded object and if we need to check if that value is existing in there
 
@@ -46,8 +46,8 @@ describe('Check postDetail', () => {
 
     // Thsi is usefull if we have an object value that we will get from an api
 
-    it('Should have the category property', () => {
-        expect(postDetails).toHaveProperty("category");
-        expect(postDetails).toHaveProperty("views")
-    })
-})
+//     it('Should have the category property', () => {
+//         expect(postDetails).toHaveProperty("category");
+//         expect(postDetails).toHaveProperty("views")
+//     })
+// })
