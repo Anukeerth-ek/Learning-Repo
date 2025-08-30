@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { COMPANIES, postDetails, reverseString, subtract, USER_POST_API_URL } from './helper'
+import { COMPANIES, fetchUserDetails, isAuthenticate, postDetails, reverseString, subtract, USER_POST_API_URL } from './helper'
 
 // describe('Subtraction of 2 numbers', () => {
 //     it('return 2 if num1 is 4 and num2 is 2', () => {
@@ -51,3 +51,21 @@ import { COMPANIES, postDetails, reverseString, subtract, USER_POST_API_URL } fr
 //         expect(postDetails).toHaveProperty("views")
 //     })
 // })
+
+// describe('Check API Result', () => {
+//     it("Should have the following property", async() => {
+//         const data = await fetchUserDetails()
+//         expect(data).toHaveProperty('title');
+//         expect(data).toHaveProperty('userId');
+//         expect(data).toHaveProperty('completed');
+//     }, 1000000)
+// })
+
+describe("isAuthenticate", () => {
+    it('Should return welcome', () => {
+        expect(isAuthenticate(true)).toBeTruthy()
+    })
+    it('Should be throw an error', () => {
+        expect(()=> isAuthenticate(false)).toThrow()
+    })
+})
